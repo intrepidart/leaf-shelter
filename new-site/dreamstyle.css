@@ -1,0 +1,61 @@
+body {
+    
+    background-color:rosybrown;
+    cursor: url('sai.png'), default;
+
+}
+
+h1 {
+
+    font: Book Antiqua italic ;
+}
+
+p 
+{
+
+    font: Helvetica; 
+    padding: 40px;
+    width: 35%;
+    text-align: center;
+}
+
+a {
+
+    text-decoration: none;
+     
+}
+
+
+table 
+
+{
+     
+    border-collapse: collapse;
+    background-color: blueviolet;
+    width: 35%;
+    height: 200px;
+  background-image: linear-gradient(to right, rgba(207, 118, 120, 0), rgb(195, 123, 123), rgb(253, 149, 149));
+  opacity: .6;
+
+
+   
+
+}
+
+
+th :hover
+
+{
+    background-color: rgb(255, 176, 176)
+
+}
+
+button 
+
+{
+    
+
+  
+        background-image: radial-gradient(circle, red, yellow, green);
+}
+ 

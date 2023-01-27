@@ -1,0 +1,40 @@
+ p {
+            
+                color:rgb(28, 237, 205); 
+                background-color: rgb(210, 172, 246);
+                font-size: 30 px;
+                border: 1px dashed;
+                padding: 20px; 
+                margin: 0 auto;
+                width: 60%;
+                text-align: center; 
+            }
+
+body {background-color: rgb(195, 162, 227);
+max-width: 600px;
+margin: 0 auto}
+
+a
+
+{
+    color:rgb(225, 242, 131);
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: brown;
+    text-decoration: line-through;
+}
+      
+.special {
+
+    font-size: 25px;
+}
+           
+
+.new {
+
+background-color: rgb(195, 178, 49);
+
+}
