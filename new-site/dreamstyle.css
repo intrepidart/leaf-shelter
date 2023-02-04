@@ -1,7 +1,7 @@
 body {
     
-    background-color:rosybrown;
-    cursor: url('sai.png'), default;
+    background-color:rgb(122, 102, 81);
+    cursor: url('favicon-01.png'), default;
 
 }
 
@@ -10,18 +10,13 @@ h1 {
     font: Book Antiqua italic ;
 }
 
-p 
-{
 
-    font: Helvetica; 
-    padding: 40px;
-    width: 35%;
-    text-align: center;
-}
 
 a {
 
     text-decoration: none;
+    color:rgb(65, 36, 9)
+
      
 }
 
@@ -31,10 +26,10 @@ table
 {
      
     border-collapse: collapse;
-    background-color: blueviolet;
+    background-color: rgb(252, 201, 154);
     width: 35%;
     height: 200px;
-  background-image: linear-gradient(to right, rgba(207, 118, 120, 0), rgb(195, 123, 123), rgb(253, 149, 149));
+  background-image: linear-gradient(to right, rgba(153, 129, 129, 0),  rgb(253, 149, 149));
   opacity: .6;
 
 
@@ -56,6 +51,38 @@ button
     
 
   
-        background-image: radial-gradient(circle, red, yellow, green);
+        background-color:  rgb(132, 134, 221);
+        padding: 20px;
 }
  
+
+#marquee
+
+{
+    width: "60%";
+    height: "30%";
+    direction: right;
+
+}
+
+
+
+
+
+#dreams
+{ padding: 20px;
+  width: 20%;
+  margin: 10px;
+  background-color: rgb(252, 201, 154)
+
+}
+
+summary
+
+{
+
+    font-size: 30px;
+    background-color: bisque;
+   
+     
+}

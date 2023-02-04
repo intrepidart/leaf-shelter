@@ -12,7 +12,13 @@
 
 body {background-color: rgb(195, 162, 227);
 max-width: 600px;
-margin: 0 auto}
+margin: 0 auto
+
+
+
+    cursor: url(favicon-01.png), default;
+    
+}
 
 a
 
@@ -36,5 +42,12 @@ a:hover {
 .new {
 
 background-color: rgb(195, 178, 49);
+
+}
+
+marquee
+
+{
+    text-decoration: rgb(189, 122, 35);
 
 }

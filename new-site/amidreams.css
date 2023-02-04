@@ -1,0 +1,69 @@
+body {
+    
+    background-color:rgb(122, 102, 81);
+    cursor: url('favicon-01.png'), default;
+
+}
+
+h1 {
+
+    font: Book Antiqua italic ;
+}
+
+p 
+{
+
+    font: Helvetica; 
+    padding: 40px;
+    width: 35%;
+    text-align: center;
+ 
+
+}
+
+a {
+
+    text-decoration: none;
+    color:rgb(65, 36, 9)
+
+     
+}
+
+
+
+
+
+
+button 
+
+{
+    
+
+  
+        background-color:  rgb(132, 134, 221);
+        padding: 20px;
+}
+ 
+
+marquee
+
+{
+    width: "60%";
+    height: "30%";
+    padding: 10px;
+
+}
+
+
+ 
+
+summary
+
+{
+
+    font-size: 30px;
+    background-color: aquamarine;
+   
+   
+     
+}
