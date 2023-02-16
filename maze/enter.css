@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.wrapper
+
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin: 30px;
+
+}
+
+.main
+
+{
+
+background: rgb(185, 255, 206);
+height: 700px;
+width: 850px;
+margin: center;
+align-items: center;
+padding-top: 50px;
+
+display: flex;
+flex-direction: column;
+ 
+gap: 10px;
+ 
+ 
+}
+
+
+.words
+
+{
+
+    
+
+background: rgb(255, 255, 192);
+height: 500px;
+width: 700px;
+
+}
+
+
+.txt
+
+{
+
+    padding: 40px;
+
+    
+}
+
+.txtbutton
+
+{
+
+    padding: 20px;
+}
+
+.enter
+
+{
+
+    background: rgb(217, 246, 223);
+    height: 100px;
+    width: 700px;
+
+
+}
+
+
+
+
+
