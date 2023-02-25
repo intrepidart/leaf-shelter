@@ -4,66 +4,153 @@
 
 
 body  {
-    background:  radial-gradient(rgb(176, 233, 139), #b8e2fd, rgb(125, 245, 175));
+    background:  radial-gradient(#D1FFC6, #CFFFC4, #31af11);
  
 }
 
-.flex {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(180, 190, 249);
+ 
+.wrapper
+
+{
+
+display: flex;
+justify-content: center;
+align-content: center;
+margin: 50px;
+/* margin: 30px; */
+
+}
+
+.container {
+    background: rgb(62, 182, 112);
+    height: 750px;
+    width: 1200px;
+
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+    justify-content: center;
+align-items: center;
+align-content: center;
+ 
+    
+   
+
+
 }
 
-.square {
-    background-color:antiquewhite;
-    width: 20vw;
-    height: 20vw;
-     
-    animation-direction: alternate-reverse;
+.bounding {
+    
+    height:652px;
+    width: 1047px;
+
+    
+display: flex;
+justify-content:flex;
+ 
+ 
  
 
-    animation: pulse 4s infinite alternate ease-in;
+
 }
 
-.rectangle {
-    background-color:antiquewhite;
-    width: 40vw;
-    height: 20vw;
+.if {
+    background: #CFFFC4;
+    height: 113px;
+    width: 113px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+    animation: ifslide 5s infinite;
+}
+
+.iftxt {
+    text-align: center;
+
+}
+
+.you {
+    background: #CFFFC4;
+    height: 113px;
+    width: 113px;
+    margin-right:auto;
+    margin-top: 140px;
+
+    animation: youslide 5s infinite;
      
-    animation-direction: alternate-reverse;
- 
-
-    animation: wiggle 4s infinite alternate ease-in;
-}
-
-@keyframes pulse {
-    0% {
-        background-color: antiquewhite;
-        transform: translateX(-16vw);
-      
-    }
-
-      100% {
-        background-color: antiquewhite;
-        transform: translateX(116vw);
-    }
-}
-
-@keyframes wiggle {
-    0% {transform: translateX(90vw);
-    background: radial-gradient(cornflowerblue,yellow, pink
-    );
-
-
-    }
-
-    20% {transform: translateX(20vw);
-        background: radial-gradient(rgb(152, 237, 100),yellow, pink
-    );
-
-    }
 
 }
+
+.loved {
+    background: #CFFFC4;
+    height: 95px;
+    width: 95px;
+}
+
+.me {
+
+}
+
+.you {
+
+}
+
+.would {
+
+}
+
+.have {
+
+}
+
+.gotten {
+
+}
+
+.me {
+
+}
+
+.hot {
+
+}
+
+.kid {
+
+}
+
+.milk {
+    
+}
+
+@keyframes ifslide {
+    0% {transform: translate(0);
+
+    }
+
+    50% {transform: translate(880px);
+
+    }
+
+    100% {transform: translate(0);
+
+    }
+
+}
+
+@keyframes youslide {
+    0% {transform: translate(0,0px);
+
+    }
+
+    50% {transform: translate(0,350px);}
+
+    70% {transform: translate(200px,0);}
+
+    }
+/* 
+    70% {transform: translate(70,0px);
+
+    80% {transform: translate(0, 0)}; */
+
+    
+
+

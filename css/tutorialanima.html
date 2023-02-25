@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div {
+            background-color: hsl(200, 70%, 30%);
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+
+
+        }
+
+        div {
+            /* transform:rotate(74deg); */
+            position: relative;
+        }
+
+        div::after {
+            content: 'after';
+            background: red;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%);
+            
+        }
+ 
+        div {
+            transform:  scale(var(--scale,.75)); translateX(var(--translate-x,50px)): 50px;
+        }
+
+        .big {
+           --scale: 2;
+
+        }
+
+        .move {
+            --translate-x: -50px;
+        }
+
+      
+   
+   </style>
+
+<body>
+    <div class="big">box</div>
+</body>
+
+</html>
