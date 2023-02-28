@@ -59,7 +59,8 @@ justify-content:flex;
     margin-top: 30px;
     margin-left: 10px;
 
-    animation: ifslide 5s infinite;
+    animation: ifslide 5s;
+    animation-iteration-count: 1;
 }
 
 .iftxt {
@@ -74,24 +75,62 @@ justify-content:flex;
     margin-right:auto;
     margin-top: 140px;
 
-    animation: youslide 5s infinite;
+    animation: youslide 5s ;
+    animation-iteration-count: 1;
      
 
 }
 
-.loved {
+.like
+
+{
     background: #CFFFC4;
     height: 95px;
     width: 95px;
+    margin-top: 540px;
+    margin-right: auto;
+    
+    animation: liked 5s infinite;
 }
 
-.me {
+
+.me  {
+
+    background: #CFFFC4;
+    height: 95px;
+    width: 95px;
+    margin-top: 540px;
+    margin-right: auto;
+    
+    animation: me 5s infinite;
 
 }
 
 .you {
+    background: #CFFFC4;
+    height: 95px;
+    width: 95px;
+    margin-top: 540px;
+    margin-right: auto;
+    
+    animation: you 5s infinite;
+
+
 
 }
+
+.would {
+    background: #CFFFC4;
+    height: 95px;
+    width: 95px;
+    margin-top: 140px;
+    margin-right: 200px;
+    
+    animation: would 5s infinite;
+}
+ 
+
+ 
 
 .would {
 
@@ -137,15 +176,61 @@ justify-content:flex;
 }
 
 @keyframes youslide {
-    0% {transform: translate(0,0px);
+    0% {transform: translate(0,0);
 
     }
 
     50% {transform: translate(0,350px);}
 
-    70% {transform: translate(200px,0);}
+    /* 70% {transform: translate(200px,200px);} */
+
+    75% {transform: translate(200px,0);}
+
+    80% {transform: translate(200px)}
+
+
+    /* 80% {transform: translate(0,0);} */
 
     }
+
+@keyframes liked {
+    0% {transform: translate(0 );
+
+    }
+
+    50% {transform: translate( 350px,0);}
+
+    /* 70% {transform: translate(200px,200px);} */
+ 
+}
+
+@keyframes me {
+    0% {transform: translate(350px);
+
+    }
+
+    50% {transform: translate(400px);}
+
+     
+
+    }
+
+@keyframes you {
+
+0% {transform: translate(0,0 );}
+
+50% {{transform: translate(400px, 0);}}
+    
+}
+
+@keyframes would {
+    0% {transform: translate(0);}
+
+50% {{transform: translate(500px);}}
+
+}
+
+
 /* 
     70% {transform: translate(70,0px);
 
