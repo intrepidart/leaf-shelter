@@ -81,31 +81,39 @@ justify-content:flex;
 
 }
 
-.liked
-
-{
-    background: #CFFFC4;
-    height: 95px;
-    width: 95px;
-    margin-top: 540px;
-    margin-right: auto;
-    
-    animation: liked 5s infinite;
-}
+ 
 
 
-.me  {
+.liked  {
 
     background: #CFFFC4;
     height: 95px;
     width: 95px;
     margin-top: 540px;
-    margin-right: 200px;
+    margin-right: 210px;
     
-    animation: me 5s infinite;
+    animation: liked 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+     
 
 }
 
+ 
+.me {
+    background: #CFFFC4;
+    height: 95px;
+    width: 95px;
+  
+    
+    animation: liked 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+     
+
+
+
+}
 .you {
     background: #CFFFC4;
     height: 95px;
@@ -131,34 +139,9 @@ justify-content:flex;
  
 
  
-
-.would {
-
-}
-
-.have {
-
-}
-
-.gotten {
-
-}
-
-.me {
-
-}
-
-.hot {
-
-}
-
-.kid {
-
-}
-
-.milk {
-    
-}
+ 
+ 
+ 
 
 @keyframes ifslide {
     0% {transform: translate(0);
@@ -194,22 +177,22 @@ justify-content:flex;
     }
  
 @keyframes liked {
-    0% {transform: translate(350px,0);
+    0% {transform: translate(200px,0);
 
     }
 
     100% {transform: translate(500px,0);}
 
-    /* 70% {transform: translate(200px,200px);} */
+  
  
 }
 
 @keyframes me {
-    0% {transform: translate(30px);
+    0% {transform: translate(500px,0);
 
     }
 
-    50% {transform: translate(500px);}
+    50% {transform: translate(700px,0);}
 
      
 

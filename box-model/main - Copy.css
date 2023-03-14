@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+    margin:0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.content-box {
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid lightcoral;  
+    margin: 50px; 
+}
+
+
+.border-box {
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid lightcoral;  
+    margin: 50px; 
+    box-sizing: border-box;
+}
+
+.circle 
+{background-color: rgb(173, 230, 183);
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 100% 100% 0 0;
+
+}
+

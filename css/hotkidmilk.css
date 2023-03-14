@@ -1,0 +1,73 @@
+.box {
+  background: greenyellow;
+  height: 113px;
+  width: 113px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.if {
+     
+    animation: if 4s forwards;
+    z-index: 1;
+}
+
+.you {
+    background: burlywood;
+    z-index: -1;
+    opacity: 0;
+    animation: you 4s forwards;
+    animation-delay: 4s;
+}
+
+.loved {
+    background: rgb(248, 91, 12);
+    z-index: -2;
+    opacity: 0;
+    animation: loved 4s forwards;
+    animation-delay: 8s;
+    top:200px;
+    left:200px;
+    
+}
+
+ 
+@keyframes if {
+  0% {
+    transform:translate(0, 0);
+  }
+  50% {
+    transform:translate(1000px, 0);
+  }
+  100% {
+    transform:translate(0, 0);
+  }
+}
+
+@keyframes you {
+  0% {
+    opacity:1;
+    transform:translate(0, 0);
+  }
+  50% {
+    transform:translate(0, 650px);
+  }
+  100% {
+    opacity:1;
+    transform:translate(400px, 650px);
+  }
+}
+
+@keyframes loved 
+    0% {
+    opacity:1;
+    transform:translate(0, 0);
+  }
+  50% {
+    transform:translate(0, -200px);
+  }
+  100% {
+    opacity:1;
+    transform:translate(200px, -200px);
+  }
