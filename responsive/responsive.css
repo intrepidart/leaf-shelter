@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(240, 162, 84);
+    background-color: rgb(240, 84, 198);
     transition:background 1s;
 }
 
@@ -71,4 +71,5 @@ header {
         font-size: 130%;
     }
     
+}
 }
