@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #C9FFD2;
+}
+.draggable {
+    cursor: grab;
+}
+
+.flex {
+    
+    display:flex;
+    align-items: center;
+    align-content: center;
+     
+    flex-direction: column;
+     
+   
+     
+  }
+
+  .image {
+    display: flex;
+    
+  }
+
+  .miobg {
+    background: #FFD789;
+    border: 2px solid rgb(137, 122, 122);
+    padding: 20px;
+    margin: 20px;
+    width: 1450px;
+    height: 180px;
+    display: flex; 
+     ;
+    
+    animation-name: miocss;
+    animation-duration: infinite;
+    transition: background 1s;
+
+  }
+
+  .miobg:hover {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 15px  #e9d4fd
+  }
+ 
+
+  .mio {
+   
+    font-size: 50pt;
+    align-items: center;
+    font-family: 'Sofia'; 
+    color:#87BBEB;
+  }
+  
+
+
+  .bottomwrapper {
+     
+    /* border: 2px solid black; */
+    display: flex; 
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+ 
+
+  }
+
+  .storage {
+    background: rgb(255, 221, 135);
+    height: 30px;
+    width: 250px;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 2px; 
+    color: cornflowerblue;
+    
+     
+  }
+
+  .leftwrapper {
+    background-color: lightblue;
+    width: 300px;
+    height: 580px;
+    display: flex;
+    justify-content: start;
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+.leftwrapper:hover , .centerwrapper:hover, .rightwrapper:hover {
+  background:  #e9d4fd;
+  transition:background 1s;
+  border-radius: 8px;
+  transition:border-radius 1s;
+  box-shadow: 0px 0px 20px 15px rgb(255, 221, 135)
+
+  ;
+}
+
+h3 {
+    font-style: italic;
+    background: lightgreen; border-radius: 8px;
+    padding: 10px;
+
+}
+
+h3:hover {
+  background: #C9FFD2;
+}
+
+.acco {
+    background-color: rgb(188, 239, 174);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+    color: cornflowerblue;
+    
+}
+ 
+  .centerwrapper {
+    background: lightblue;
+    border: 2px solid black;
+    display: flex; 
+    margin: 10px;
+    width: 400px;
+    height: 580px;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+ 
+  } 
+
+   
+  
+  .cnter {
+    background-color: beige;
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+ #panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: lightgreen;
+    border: solid 1px #c3c3c3;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    
+  }
+
+  #panel {
+    height: 300px;
+    width: 360px;
+    font-size: 20px;
+    
+    color: cornflowerblue;
+  }
+
+  #flip {
+    height: 80px;
+    width: 360px;
+    font-size: 30px;
+    color: cornflowerblue;
+  }
+
+  #flip:hover {
+    cursor: cell;
+    background-color:rgb(188, 239, 174);
+    transition: background 1s;
+  }
+
+  
+  #panel:hover {
+    cursor: cell;
+    background-color:rgb(188, 239, 174);
+    transition: background 1s;
+  }
+
+/* 
+  .secret {
+    background-color: #e5eecc;
+    height: 430px;
+    width: 330px;
+  } */
+
+
+ .fortune {
+    width: 360px;
+    height: 100px;
+    margin: 10px;
+    justify-content: center;
+    background: rgb(255, 221, 135);
+    font-size: 30px;
+    font-style: oblique;
+    color: #bc74ff;
+ }
+
+ button  {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    justify-content: center;
+    border: none;
+    cursor: grab;
+ }
+  
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+  .rightwrapper {
+    background: lightblue;
+    border: 2px solid black;
+    display: flex; 
+    margin: 10px;
+    width: 700px;
+    height: 580px;
+     
+    gap: 10px;
+    display: flex;
+    justify-content: column;
+ 
+  } 
+
+  .thoughts {
+    background:rgb(255, 221, 135);
+    /* border: 2px solid black; */
+    width: 650px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: column;
+  
+
+     
+
+  }
+
+  .words:hover {
+    cursor: cell;
+  }
+ 
+  h3 {
+    cursor: cell;
+  color: #bc74ff; }
+
+    
+  @keyframes miocss {
+    from {background-color:rgb(255, 206, 126) ;}
+    to {background-color: rgb(225, 188, 140);}
+  
+  }
+
+  form {
+    font-size: 30px;
+    padding: 10px;
+    color: cornflowerblue;
+    font-style: italic;
+  
+  }
+
+   
+ 
+  input[type=submit] {
+    cursor: pointer;
+    background-color: #C9FFD2;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    border: 1px solid #c3c3c3;
+  }
+
+  input[type=submit]:hover {
+    background-color: lightgreen;
+  } 
+  
+  
+input[type=text]:focus {
+  background-color: lightblue;
+  transition: background 1s;
+}
+
+  
+input[type=text]: hover {
+  background-color: lightblue;
+  transition: background 1s;
+
+}
+
+
+input[type=text] {
+margin-top: 15px;
+border-radius: 8px;
+border: 1px solid #c3c3c3;
+height: 250px;
+width: 300px;
+background-color: rgb(255, 221, 135);
+}
+
+.fading {
+  color:#bc74ff }
+
+.fading:hover {
+  font-size: 30px;
+  font-style: italic;
+  background-color: #C9FFD2;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 15px #C9FFD2 ;
+  transition: background 1s;
+  color: cornflowerblue;
+
+
+
+}

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header {
+    background: rgb(249, 124, 22);
+    border: 2px solid black;
+    padding: 40px;
+    margin: 20px;
+}
+
+header {
+    width: 90%;
+    height: 150px;
+
+   
+}
+ 
+.headspace {
+    font-size: 80pt;;
+}

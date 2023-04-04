@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    transition: background .5s;
+}
+
+body.activated {
+    background: darkslategrey;
+}
+.box {
+    padding: 20px;
+    background-color: slategray;
+    font-size: 20px;
+    position: fixed;
+    display: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px; 
+    height: 100vh;
+    border-left: 1px solid;
+    transition: right .5s;
+}
+
+.box.activated {
+  right:0;
+
+}
+
+button {
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    background: white;
+    transition: background .5s;
+}
+
+button:hover {
+    background: pink;
+}
+
+button:active {
+    background: lightgreen;
+}
+
+.square {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background: rgb(237, 182, 100);
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+}
+
+.square.activated {
+    background: rgb(251, 251, 184);
+    transform: rotate(360deg);
+     
+}
