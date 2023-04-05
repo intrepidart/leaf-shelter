@@ -33,9 +33,9 @@ body {
     margin: 20px;
     width: 1450px;
     height: 180px;
-    display: flex; 
-     ;
-    
+    display: flex;  
+    justify-content: center;   
+    align-items: center;
     animation-name: miocss;
     animation-duration: infinite;
     transition: background 1s;
@@ -44,16 +44,18 @@ body {
 
   .miobg:hover {
     border-radius: 8px;
-    box-shadow: 0px 0px 20px 15px  #e9d4fd
+    box-shadow: 0px 0px 20px 15px  #e9d4fd;
+
   }
  
 
   .mio {
-   
-    font-size: 50pt;
+    margin: 0px;
+    font-size: 90pt;
     align-items: center;
-    font-family: 'Sofia'; 
+    font-family: 'Work Sans'; 
     color:#87BBEB;
+
   }
   
 
@@ -106,6 +108,8 @@ h3 {
     font-style: italic;
     background: lightgreen; border-radius: 8px;
     padding: 10px;
+ 
+    margin: 10px 0 0 0;
 
 }
 
@@ -113,12 +117,14 @@ h3:hover {
   background: #C9FFD2;
 }
 
+ 
 .acco {
     background-color: rgb(188, 239, 174);
     border-radius: 8px;
     font-size: 20px;
     padding: 10px;
     color: cornflowerblue;
+    margin: 0 0 10px 0;
     
 }
  

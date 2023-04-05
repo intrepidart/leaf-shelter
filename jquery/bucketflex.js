@@ -19,13 +19,16 @@ $( ".draggable" ).draggable();
 
 $(document).ready(function(){
     $("form").submit(function(){
-      alert("thank you for your message! it is making it's way to the headspace!");
+        var text = document.getElementById("myText").value; 
+      alert("thank you for your message! it is making it's way to the headspace!" + text );
+
     });
   });
 
 
   $( function() {
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({ heightStyle: "content"});
+  
   } );
 
   $(document).ready(function(){
@@ -40,3 +43,4 @@ $(document).ready(function(){
       $(this).hide();
     });
   });
+ 
