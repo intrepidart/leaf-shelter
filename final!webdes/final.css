@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    border: solid 1px #337D67;
+    color: #337D67;
+}  
+
+.leftcolumn {
+    /* width: 10%; */
+    width: 300px;
+    flex-shrink:0; 
+}
+
+.centercolumn {
+    /* width: 70%; */
+    width: 100%;
+    border-left: solid 1px #337D67;
+    border-right: solid 1px #337D67;
+}
+
+.rightcolumn {
+    /* width: 20%;
+*/
+width: 360px;
+flex-shrink:0;
+} 
+
+.heading {
+    
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 7vw;
+    background: black;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    /* font-size: 120pt; */
+    
+     
+    }
+
+.topwrapper {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    border-bottom: 1px solid  #337D67;
+}
+
+.eye {  
+    background:  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.center {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 50%;
+
+    /* margin-top: 32%; */
+    
+}
+
+.welcome {
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.welctitle {
+   
+}
+ 
+.bodywrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+}
+
+
+.title {
+    display: flex;
+    flex-flow: column;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20pt;
+}
+ 
+#nav details {
+    display: flex;
+    flex-flow: column;
+    margin-left: 1.2rem;
+}
+
+summary {
+    margin-left: 30px;
+    font-size: 18pt;
+    
+}
+
+.day {
+
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+a {
+    margin-left: 50px;
+    font-size: 16pt;
+    
+}
+ 
+
+a {
+    text-decoration: none;
+    color: #337D67;
+}
+
+.menubar {
+    display: flex;
+    overflow: auto;
+    background-color: black; 
+}  
+
+.bodyimage {
+     
+    background-color: black; 
+    overflow: auto;
+}
+
+.stackedcolumn {
+    background-color: black; 
+    display: flex;
+    flex-direction: column;
+}
+
+.pinch {
+    height: 300px ;
+    background-color: black; 
+    font-family: 'Cinzel', serif;
+    font-size: 30pt;
+    padding: 5%;
+    border-bottom: 1px solid #337D67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    height: 500px ;
+    background-color: black; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+   
+    
+}

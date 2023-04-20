@@ -1,0 +1,45 @@
+
+
+.marquee {
+    height: 10%;
+    border-bottom: 1px solid #337D67;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    padding: 10px;
+ 
+}
+
+#calendar {
+    height: 100% ;
+    background-color: black; 
+}
+
+#days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0;
+    max-width:100%;
+}
+
+#days a {
+    border-bottom: 1px #337D67 solid;
+    border-right: 1px #337D67 solid;
+    height: 114px; 
+    margin: 0;
+    padding: .75em;
+    text-decoration: none;
+}
+/* 
+#days a[href]::after {
+    content:url("greeneyefavicon32px.png")
+} */
+
+#days a[href]::after {
+    content: '';
+    background:  #72b2a1;
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+    border-radius: 100%;
+    display: inline-block;
+}
