@@ -134,6 +134,11 @@ a {
     color: #337D67;
 }
 
+
+a:hover {
+    text-decoration:underline;
+    
+}
 .menubar {
     display: flex;
     overflow: auto;
